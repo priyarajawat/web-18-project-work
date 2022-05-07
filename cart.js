@@ -2,7 +2,7 @@
 var data = JSON.parse(localStorage.getItem("cart"));
 console.log(data);
 
-var newdata = JSON.parse(localStorage.getIt("newcart"))|| [];
+var newdata = JSON.parse(localStorage.getItem("newcart"))|| [];
 
 
 data.forEach(function(ele){
