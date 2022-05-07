@@ -1,6 +1,6 @@
 
 var data = JSON.parse(localStorage.getItem("cart1"));
-console.log(data);
+
 
 var newdata = JSON.parse(localStorage.getItem("newcart"))|| [];
 
