@@ -246,6 +246,7 @@ display(foot)
 function footware(ele){
     console.log(ele)
    arrfoot.push(ele);
+   window.location.href="addcart.html"
    localStorage.setItem("cart1",JSON.stringify(arrfoot));
    
    

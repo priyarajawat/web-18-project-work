@@ -202,6 +202,7 @@ display(womenscloth)
 function womens(ele){
     console.log(ele)
    arrofwomen.push(ele);
+   window.location.href="addcart.html"
    localStorage.setItem("cart1",JSON.stringify(arrofwomen));
    
    
