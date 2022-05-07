@@ -9,11 +9,11 @@ data.forEach(function(ele){
     
     var img = document.querySelector("#img");
     img = ele.img;
-    var h2 = document.querySelector("disc>h2");
+    var h2 = document.querySelector("#disc>h2");
      h2.innerText = ele.name;
-     var p = document.querySelector("disc>h2+p");
+     var p = document.querySelector("#disc>h2+p");
      p.innerText = ele.strikeprice;
-     var p2 = document.querySelector("disc>h2+p+p");
+     var p2 = document.querySelector("#disc>h2+p+p");
      p2.innerText = ele.price;
      
       var obj ={
