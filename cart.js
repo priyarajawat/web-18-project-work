@@ -8,7 +8,7 @@ var newdata = JSON.parse(localStorage.getItem("newcart"))|| [];
 data.forEach(function(ele){
     
     var img = document.querySelector("#img");
-    img.innerText = ele.image_url;
+    img.src = ele.image_url;
     var h2 = document.querySelector("#disc>h2");
      h2.innerText = ele.name;
      var p = document.querySelector("#disc>h2+p");
