@@ -8,12 +8,12 @@ var newdata = JSON.parse(localStorage.getIt("newcart"))|| [];
 data.forEach(function(ele){
     
     var img = document.querySelector("#img");
-    img.src = ele.img;
-    var h2 = document.querySelector("disc>h2");
+    img.innerText = ele.image_url;
+    var h2 = document.querySelector("#disc>h2");
      h2.innerText = ele.name;
-     var p = document.querySelector("disc>h2+p");
-     p.innerText = ele.strikeprice;
-     var p2 = document.querySelector("disc>h2+p+p");
+     var p = document.querySelector("#disc>h2+p");
+     p.innerText = ele.strprice;
+     var p2 = document.querySelector("#disc>h2+p+p");
      p2.innerText = ele.price;
      
       var obj ={

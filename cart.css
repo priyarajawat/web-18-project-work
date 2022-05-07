@@ -14,6 +14,29 @@ body{
     font-family: 'Quicksand', sans-serif;
 
 }
+#a{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: rgb(3, 66, 66);
+    margin: auto;
+}
+#nav{
+    width: 100%;
+    display:flex;
+    gap:30px;
+    justify-content:space-around;
+    margin:auto;
+    margin-top: 20px;
+    background-color:rgba(255, 255, 255, 0.947);
+    color:rgb(0, 0, 0);
+    padding:0px 50px;
+    border-radius:10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
 #info{
    border: 2px solid rgb(23, 61, 127);
     width: 100%;
