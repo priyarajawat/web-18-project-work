@@ -9,7 +9,7 @@ data.forEach(function(ele){
   
 
         var img = document.querySelector("#img");
-        img.innerText = ele.image_url;
+        img.src = ele.image_url;
         var h2 = document.querySelector("#disc>h2");
          h2.innerText = ele.name;
          var h3 = document.querySelector(".green>p");
@@ -20,15 +20,10 @@ data.forEach(function(ele){
          p2.innerText = ele.price;
 
          
-         var btn = document.querySelector("#cart>button");
-         btn.addEventListener("click" , function (){
-             bookcart(ele);
-         });
+      
 })
 
-function bookcart (ele){
-   console.log(ele)
-}
+
 
 
 
